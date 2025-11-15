@@ -1,108 +1,152 @@
-$("<div class='fr borderg minix' style='padding:2px;background-color:white;margin-top: 5px;'>  استايلات و تصاميم :<a href='https://1des.net/'>بيبسي مان</a></div>").insertAfter($(".loginstat"));
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>شروط الاستخدام وقوانين شات احتريك </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      padding: 30px;
+      direction: rtl;
+      line-height: 1.8;
+    }
 
-$(`<style>
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
 
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-div#l1 input#u1,div#l3 button{width:99%;margin-left:1px}
-div#l2 button,div#l3 button{border:1px solid #ccc!important;border-radius:24px!important;height:27px;padding:0 5px}
-div#l1 input#u1{border-radius:15px;border:1px solid #e1e0e0;margin-top:3px;text-align:center}
-div#l2 input#pass1,div#l2 input#u2,div#l3 input#pass2,div#l3 input#u3{width:49%;padding:0!important;float:right;margin:2px 5px 2px 0}
-div#l2 input#u2,div#l3 input#u3{margin-left:-6px;border-radius:15px;border:1px solid #e1e0e0;text-align:center}
-div#l2 input#pass1,div#l3 input#pass2{border-radius:15px;border:1px solid #e1e0e0;text-align:center}
-div#l2,div#l3{padding:2px!important}
-div#l1{margin:0 1px -18px;padding:0!important}
-div#l1,div#l2,div#l3{border-bottom:2px solid;margin-bottom:2px;border-top:2px solid;margin-top:0;border-color:#bababa;border-radius:15px;height:69px}
-div#l1 button{border:1px solid #ccc!important;border-radius:24px!important;width:99%;height:27px;padding:0 5px}
-div#l2 button{width:70%}
+    .logo img {
+      max-width: 800px; /* ✅ تم تكبير الشعار */
+      height: auto;
+    }
 
-ul.nav.nav-tabs>li>a{border:none;text-align:center;border-radius:3px;display:initial;width:80%;float:left;padding:0!important}
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
 
-ul.nav.nav-tabs>li.active>a{border:none;border-radius:3px}ul.nav.nav-tabs>li{width:32%;margin:0 5px 0 0}
-ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.nav.nav-tabs>li>.fa-user:before{float:right;margin-right:-26%;padding:0 2px 1px;border-radius:3px;width:23px;text-align:center}
-.nav>li>a:focus,.nav>li>a:hover{color:#9abff9}
-ul.nav.nav-tabs{margin-top:2px;float:right;width:100%;padding:3px 1px}
+    .intro {
+      text-align: center;
+      color: #e74c3c;
+      font-weight: bold;
+      margin-top: 10px;
+    }
 
-div#tlogins::-webkit-scrollbar{width:0px;height:10px}
+    .section-title {
+      background: #eee;
+      padding: 10px;
+      font-weight: bold;
+      color: #2980b9;
+      border-right: 5px solid #3498db;
+      margin-top: 30px;
+    }
 
-div#tlogins .fl.mini.u-msg{margin-top:3px!important;border-radius:3px!important}
-a.label.label-primary.fl img.fl,button.btn.fr.btn-success.fa.fa-refresh,div#l2 br,div#l3 br{display:none}
+    ul {
+      padding-right: 20px;
+    }
 
+    li {
+      margin-bottom: 8px;
+    }
 
-a.label.label-primary.fl {
-    border-radius: 3px!important;
-    margin: 2px -155px;
-    padding: 5px!important;
-    margin-bottom: 2px;
-    text-align: right!important;
-}
+    .warning {
+      background: #fff3cd;
+      border: 1px solid #ffeeba;
+      padding: 20px;
+      border-radius: 5px;
+      color: #856404;
+      margin-top: 40px;
+    }
 
-button.btn.fr.btn-success.fa.fa-refresh{display:none}
-a.label.label-primary.fl img.fl{display:none}
-#des22{text-align:center!important;font-size:100%!important}
-.fr.borderg,.fr.borderg a{font-size:10px!important;padding:0 5px!important;position:relative;color:#ffffff}
-.fr.borderg{border:0;margin-top:0;height:0}
-span.s1.fa.fa-user.label.badgex.label-as-badge.label-success{padding:0 3px 2px;margin-right:5px}
-label.label.label-primary.mini.fl{padding:1px;border-radius:3px!important}
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+    }
 
+    .footer img {
+      width: 200px; /* ✅ تم تكبير صورة الحقوق */
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
 
+<div class="container">
+  <div class="logo">
+    <img src="https://up6.cc/2025/07/175178219829121.gif" alt="شعار الموقع">
+  </div>
 
+  <h1>شروط الاستخدام وقوانين شات  احتريك</h1>
+  <p class="intro">
+    تذكر أن هذه المهمة أمانة من الإدارة، ويجب عدم استغلالها في غير مصلحة الموقع.
+  </p>
 
-.btn.fr.btn-success.fa.fa-refresh {
-  display: none!important;
-}
+  <div class="section-title">[يمنع]</div>
+  <ul>
+    <li>إعطاء الرقم السري لأي شخص أياً كان.</li>
+    <li>الإساءة للآخرين ولو أساؤوا إليك.</li>
+    <li>التباهي بالطرد أو الصلاحيات.</li>
+    <li>فتح روابط من الزوار داخل الدردشة.</li>
+    <li>طلب الأرقام أو الإيميلات.</li>
+    <li>دعوة الزوار لمواقع أو دردشات أخرى.</li>
+    <li>طلب فك الحظر عن شخص آخر.</li>
+    <li>طلب ترقيات أو صلاحيات بدون سبب.</li>
+    <li>كتابة معلومات شخصية بأي مكان.</li>
+    <li>فصل مراقب دون الرجوع للإدارة.</li>
+    <li>المشاجرة مع زميل أو مسؤول.</li>
+    <li>كشف الآي بي أو اسم أي شخص.</li>
+  </ul>
 
-span.flex-grow-1.dots {
-  text-align: center!important;
-}
+  <div class="section-title">[يجب]</div>
+  <ul>
+    <li>التحلي بالأخلاق مع الزوار.</li>
+    <li>التأكد قبل الطرد وعدم الطرد لمجرد الطلب.</li>
+    <li>عدم مناقشة طرد مراقب آخر.</li>
+    <li>عدم دخولك كزائر ومراقب بنفس الوقت.</li>
+    <li>إبلاغ الإدارة بأي خلاف موثق.</li>
+  </ul>
 
-.label.bg.d-flex.fl {
-  border-radius: 3px !important;
-  margin: 1px 2px;
-    margin-bottom: 1px;
-  margin-bottom: 1px;
-  padding: 0px !important;
-  margin-bottom: 2px;
-  text-align: right !important;
-}
+  <div class="section-title">[أحذر]</div>
+  <ul>
+    <li>الاشتراك شخصي فقط، لا تشاركه مع أحد.</li>
+    <li>عدم ترك الرومات بدون رقابة.</li>
+    <li>شكاوى الزوار تؤخذ بجدية وقد تؤدي لمحاسبتك.</li>
+  </ul>
 
-div#l1 input#u1 {
-  border-radius: 15px;
-  border: 1px solid #e1e0e0;
-  margin-top: 3px !important;
-  text-align: center;
-  height: 25px !important;
-  width: 95% !important;
-  margin-left: 10px;
-}
+  <div class="section-title">[مساعدة]</div>
+  <ul>
+    <li>كتابة أرقام أو إيميلات = حظر.</li>
+    <li>الشتائم = طرد أولي، تكرار = حظر.</li>
+    <li>الإباحية أو الألفاظ = حظر مباشر.</li>
+    <li>ذكر دردشات أخرى = حظر فوري.</li>
+  </ul>
 
-#tlogins {
-  max-width: 394px !important;
-}
-div#l1 button {
-  border: 1px solid #ccc !important;
-  border-radius: 24px !important;
-  width: 95%!important;
-  height: 27px!important;
-  padding: 0 5px!important;
-  margin-left: 10px!important;
-}
-span.btn.fr.fa.fa-eye {
-  transform: matrix(1,0,0,1,-40,-3)!important;
-}
+  <div class="warning">
+    انتهاك هذه القوانين يعرضك لسحب الرقابة دون إنذار.  
+    راجع القوانين بشكل دوري، فهي لحمايتك أنت أولاً.
+  </div>
 
-.fa.fa-user.label.badgex.label-success {
-  transform: matrix(1,0,0,1,-55,0);
-}
+  <div class="footer">
+    جميع الحقوق محفوظة © شات احتريك  2025<br>
+       <br>
+    <img src="https://cityupload.io/2025/11/IMG-4729.png" alt="">
+  </div>
+</div>
 
-div#l2 input#pass1, div#l2 input#u2, div#l3 input#pass2, div#l3 input#u3 {
-  width: 48% !important;
-  padding: 0 !important;
-  float: right;
-  margin: 2px 5px 2px 0;
-    margin-left: 0px;
-  height: 25px !important;
-}
-
-
-
-</style>`).insertBefore('body');
+</body>
+</html>
